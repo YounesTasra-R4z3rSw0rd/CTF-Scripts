@@ -4,11 +4,11 @@
 import os
 import sys
 import subprocess
+import re
+import base64
 
 # Third-party libraries:
 import requests
-import re
-import base64
 
 # Get File extension:
 def extension(filename):
