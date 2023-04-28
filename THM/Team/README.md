@@ -8,7 +8,7 @@
 This script exploits a ```Local File Inclusion``` vulnerability in the ```page``` endpoint.
 
 ## Reference:
-[https://younestasra-r4z3rsw0rd.github.io/posts/Team/](https://younestasra-r4z3rsw0rd.github.io/posts/Team/)
+[+] [https://younestasra-r4z3rsw0rd.github.io/posts/Team/](https://younestasra-r4z3rsw0rd.github.io/posts/Team/)
 
 ## Requirements:
 ```bash
