@@ -1,6 +1,4 @@
-re
-sys
-requests
-urllib3
-bs4
-colorama
+bs4==0.0.1
+colorama==0.4.6
+requests==2.28.1
+urllib3==1.26.13
