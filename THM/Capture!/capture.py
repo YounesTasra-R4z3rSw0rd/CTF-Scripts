@@ -24,7 +24,7 @@ def login(session, url, username, password, captcha=None):
         'captcha': captcha
     }
     response = session.post(url, data=POST_data, timeout=10)
-    # response = session.post(url, data=POST_data, timeout=10, verify=False, proxies=PROXIES)   - For debuggin purposes
+    # response = session.post(url, data=POST_data, timeout=10, verify=False, proxies=PROXIES)   - For debugging purposes
     return response
 
 # 
