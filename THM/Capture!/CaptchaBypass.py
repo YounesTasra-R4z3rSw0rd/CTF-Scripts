@@ -23,7 +23,8 @@ def login(session, url, username, password, captcha=None):
         'password': password,
         'captcha': captcha
     }
-    response = session.post(url, data=POST_data, timeout=10, verify=False, proxies=PROXIES)
+    response = session.post(url, data=POST_data, timeout=10)
+    # response = session.post(url, data=POST_data, timeout=10, verify=False, proxies=PROXIES)   - For debuggin purposes
     return response
 
 # 
