@@ -16,3 +16,4 @@ $ pip3 install -r requirements.txt
 ```bash
 $ python3 capture.py 10.10.10.10
 ```
+![capture-thm](https://user-images.githubusercontent.com/101610095/236625490-d0575222-5112-4321-9699-94beb6b0c39b.gif)
