@@ -1,0 +1,6 @@
+re
+sys
+requests
+urllib3
+bs4
+colorama
