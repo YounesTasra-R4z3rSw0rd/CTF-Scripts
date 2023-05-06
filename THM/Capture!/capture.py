@@ -88,8 +88,11 @@ if __name__ == '__main__':
                         captcha = eval(captureCAPTCHA(response.text))
                     
     except requests.exceptions.ReadTimeout:
+        print('')
         print('[' + Fore.RED + '-' + Fore.WHITE + '] Request timed out !!')
+        print('[' + Fore.BLUE + 'TIP' + Fore.WHITE + '] Update your wordlist and try again when the machine is reachable !!')
     except KeyboardInterrupt:
+        print('')
         print('\n[' + Fore.YELLOW + '!!' + Fore.WHITE + '] KeyboardInterrupt Caught !!  Quitting ...'  )
     except Exception as e:
         print('[' + Fore.RED + '-' + Fore.WHITE + f']' + Fore.RED + str(e))
