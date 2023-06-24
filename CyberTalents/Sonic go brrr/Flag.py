@@ -17,8 +17,8 @@ url = input('Enter the url of your instance (For example: http://wcamxwl32pue3e6
 session = requests.Session()
 
 # POST parameter 'Q'
-POST_data = {'Q': extract_cookie(session)}
-response = session.post('{url}/index.php', data=POST_data)
+POST_data = {'Q': extract_cookie(url, session)}
+response = session.post(f'{url}/index.php', data=POST_data)
 
 if (response.status_code == 404):
     print('The web instance you provided is no longer reachable, go back to the challenge and reset the instance.')
@@ -30,4 +30,5 @@ if 'You won against sonic' in response.text:
     flag = soup.find(text=pattern)
 
     # Printing the flag
-    print(flag)
+    print('')
+    print(f'\t-> {flag}')
