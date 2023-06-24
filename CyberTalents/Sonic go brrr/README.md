@@ -5,7 +5,7 @@
 * **Link**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: [https://cybertalents.com/challenges/web/sonic-go-brrr](https://cybertalents.com/challenges/web/sonic-go-brrr)
 
 ## Description:
-This script facilitates the process of obtaining the flag.
+This script automates the process of obtaining the flag.
 
 ## Usage:
 ```bash
