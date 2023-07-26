@@ -1,6 +1,4 @@
 <?php
-// FROM: https://www.truesec.com/hub/blog/from-s3-bucket-to-laravel-unserialize-rce
-
 $cipher = 'AES-256-CBC';
 $app_key = 'base64:dBLUaMuZz7Iq06XtL/Xnz/90Ejq+DEEynggqubHWFj0=';    // CHANGE THIS
 $chain_name = 'Laravel/RCE6';
