@@ -1,0 +1,6 @@
+asterisk
+mysql
+root
+cyrus
+spamfilter
+fanis
