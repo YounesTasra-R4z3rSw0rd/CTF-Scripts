@@ -22,7 +22,7 @@ python3 cve-2012-4869.py
 3. After some time, you should get back a reverse shell (when the extension is equal to 233):
 ![2023-07-28 17_17_29-ParrotOS-HTB - VMware Workstation 17 Player (Non-commercial use only)](https://github.com/YounesTasra-R4z3rSw0rd/CTF-Scripts/assets/101610095/3a182079-f545-40ba-a806-616d356bcb56)
 
-* Reverse shell:
+* Reverse shell: <br/>
 ![2023-07-28 17_18_31-ParrotOS-HTB - VMware Workstation 17 Player (Non-commercial use only)](https://github.com/YounesTasra-R4z3rSw0rd/CTF-Scripts/assets/101610095/013581c6-6343-4c57-a4ed-2b76fa187033)
 
 
