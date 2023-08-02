@@ -1,5 +1,5 @@
 ## About:
-* **Platform**&nbsp;&nbsp;&nbsp;: HacTheBox
+* **Platform**&nbsp;&nbsp;&nbsp;: HackTheBox
 * **Challenge**&nbsp;: Academy
 * **Difficulty**&nbsp;&nbsp;: Easy
 * **Link**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: [https://app.hackthebox.com/machines/Academy](https://app.hackthebox.com/machines/Academy)
