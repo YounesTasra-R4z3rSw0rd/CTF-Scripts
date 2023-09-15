@@ -5,7 +5,7 @@
 * **Link**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: [https://tryhackme.com/room/zeno](https://tryhackme.com/room/zeno)
 
 ## Description:
-This script exploit a **Remote Code Execution** vulnerability is **Restaurant Management System 1.0**, by running a reverse shell script on the target server in order to get an initial foothold on the machine as the user running the vulnerable web application. <br/>
+This script exploits a **Remote Code Execution** vulnerability in **Restaurant Management System 1.0**, by running a reverse shell script on the target server in order to get an initial foothold on the system as the user running the vulnerable web application. <br/>
 This works by uploading a PHP webshell via the endpoint `/rms/admin/foods-exec.php`. Subsequently, this uploaded webshell located at `/rms/images/` is utilized to execute OS commands on the server.
 
 ## Reference:
