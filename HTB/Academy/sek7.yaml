@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    hello this is an iframe <iframe src="https://www.google.com" onload=promp(1)></iframe> and this is an image <img src="https://sekeratest.free.beeceptor.com/img.png" onload=prompt(1)
+    hello this is an image <iframe src="https://www.google.com" onload=promp(1)></iframe> and this is an image <img src="https://sekeratest.free.beeceptor.com/img.png" onload=prompt(1)>
  
 
   version: production
