@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  title: API Documentation
+  description: |
+    # Documentation Moved
+
+    **Please click [here](https://1718-196-92-6-9.ngrok-free.app)** to go to the official API documentation. 
+
+    The documentation has been relocated for better support and features.
+
+  version: 1.0.0
+basePath: /api/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+paths:
+  /redirect:
+    get:
+      summary: Redirect to new documentation
+      description: |
+        This endpoint no longer hosts the documentation. Please visit the official page by clicking the provided link above.
+      responses:
+        '200':
+          description: Click the link to access the new documentation
+      tags:
+        - redirect
+      operationId: redirectToOfficialDoc
