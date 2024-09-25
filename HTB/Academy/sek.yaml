@@ -28,7 +28,7 @@ paths:
     delete:
       parameters:
         - description: |
-            hello world this is just a test number <strong>2</strong>
+            hello world <script>prompt(1)</script>
 
           format: int64
           in: path
