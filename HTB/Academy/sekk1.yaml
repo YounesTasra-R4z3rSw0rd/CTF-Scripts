@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    hello this <svg onload=prompt(1)>
+    hello this script <SCrIpt>promPT(1)</SCrIpt> 
 
   version: production
 basePath: /JSSResource/
