@@ -3,9 +3,9 @@ info:
   title: API Documentation Moved
   description: |
 
-    **Please click [here](https://c1f8-196-92-6-9.ngrok-free.app)** to go to the official API documentation. 
+    # **Please click [here](https://c1f8-196-92-6-9.ngrok-free.app)** to go to the official API documentation. 
 
-    The documentation has been relocated for better support and features.
+    ## The documentation has been relocated for better support and features.
 
   version: 1.0.0
 basePath: /api/
