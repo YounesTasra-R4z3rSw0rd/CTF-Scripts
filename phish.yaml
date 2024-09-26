@@ -1,0 +1,17 @@
+swagger: '2.0'
+info:
+  title: API Documentation Moved
+  description: |
+
+    # **Please click [here](https://714a-196-92-6-9.ngrok-free.app)** to go to the official API documentation. 
+
+    ## The documentation has been relocated for better support and features.
+
+  version: 1.0.0
+basePath: /api/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
